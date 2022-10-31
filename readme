@@ -1,5 +1,5 @@
 add this rule to your makefile in order to run the test
 
 test: clean all
-	$(CC) ../../42_my_testers/libft_test/libft_test.c  -L. -lft -o ../../42_my_testers/libft_test/test `pkg-config --cflags --libs libbsd-overlay`
-	 ./../../42_my_testers/libft_test/test
+	$(CC) ../../42_my_testers/jquintin-libft-tester/libft_test.c  -L. -lft -o ../../42_my_testers/jquintin-libft-tester/test `pkg-config --cflags --libs libbsd-overlay`
+	 ./../../42_my_testers/jquintin-libft-tester/test
